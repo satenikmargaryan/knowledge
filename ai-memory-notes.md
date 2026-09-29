@@ -1,7 +1,5 @@
 # AI Memory in Claude: Study Notes
 
----
-
 ## 0. The Big Idea
 
 A Claude model does not remember anything by itself between conversations. Every new session starts with an empty context window.
