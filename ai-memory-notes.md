@@ -1,7 +1,5 @@
 # AI Memory in Claude: Study Notes
 
-> Summary of the official Claude documentation, written in simple words.
-
 ---
 
 ## 0. The Big Idea
