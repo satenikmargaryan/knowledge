@@ -78,7 +78,7 @@ Use the first for ordinary named functions; use `(l: string) => string` when the
 
 ## Advanced — small notes
 
-**Generics** — a placeholder filled in at the call site:
+**Generics** — a placeholder filled in at the call site (full note: [Generics](13-generics.md)):
 
 ```ts
 function first<T>(items: T[]): T | undefined { return items[0] }

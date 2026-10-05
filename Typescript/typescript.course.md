@@ -14,13 +14,18 @@ Notes split by topic — read in order, or jump to what you need.
 | 6 | [Type casts](06-type-casts.md) | `as` is a promise, not a conversion — it changes nothing at runtime. |
 | 7 | [Function types](07-function-types.md) | `(l: string) => string` — what goes in, what comes out. Plus generics, overloads, guards. |
 | 8 | [Interfaces](08-interfaces.md) | The shape of an object; `extends`, `implements`, merging, and `interface` vs. `type`. |
+| 9 | [Classes](09-classes.md) | A blueprint that exists at runtime: fields, access modifiers, inheritance, `static`. |
+| 10 | [Abstract classes and `implements`](10-abstract-classes.md) | A half-built parent vs. a pure contract — and when to pick which. |
+| 11 | [Static members](11-static-members.md) | On the class, not the instance. Why a static counter keeps counting instead of resetting. |
+| 12 | [`this`](12-this-keyword.md) | Decided by how a function is called, not where it's written — and how methods lose it. |
+| 13 | [Generics](13-generics.md) | A type parameter the caller fills in. Keeps the link between what goes in and what comes out. |
 
 ## The thread running through all of it
 
 TypeScript adds a **checking step before the code runs**. Everything else follows from that:
 
 - Types exist **only at compile time** — they're erased, so they protect while developing, not
-  at runtime. (Exception: an [enum](04-enums.md) emits a real JS object.)
+  at runtime. (Exceptions: an [enum](04-enums.md) and a [class](09-classes.md) emit real JS.)
 - The more precisely we describe a value, the more the compiler can catch — hence
   [literals](03-literal-types.md) over `string`, and [`unknown`](05-any-vs-unknown.md) over `any`.
 - Anything that **tells** the compiler instead of **proving** it — `any`,

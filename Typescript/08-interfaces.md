@@ -73,3 +73,5 @@ matters more than the choice.
 
 > An interface holds no values, so nothing of it remains in the emitted JS — unlike an
 > [enum](04-enums.md).
+
+→ next: [Classes](09-classes.md)
