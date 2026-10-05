@@ -56,7 +56,7 @@ function printLength(value: unknown) {
 }
 ```
 
-Ways to narrow: `typeof`, `Array.isArray()`, `instanceof`, `in`, comparing to `null`/`undefined`.
+Ways to narrow: `typeof`, `Array.isArray()`, `instanceof`, `in`, comparing to `null`/`undefined`. See [Type guards](19-type-guards.md).
 
 `catch` is a common real case, since JS can throw *anything*, not just `Error`:
 

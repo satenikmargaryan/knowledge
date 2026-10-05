@@ -19,6 +19,13 @@ Notes split by topic — read in order, or jump to what you need.
 | 11 | [Static members](11-static-members.md) | On the class, not the instance. Why a static counter keeps counting instead of resetting. |
 | 12 | [`this`](12-this-keyword.md) | Decided by how a function is called, not where it's written — and how methods lose it. |
 | 13 | [Generics](13-generics.md) | A type parameter the caller fills in. Keeps the link between what goes in and what comes out. |
+| 14 | [Unions and intersections](14-unions-and-intersections.md) | `\|` leaves only the shared members, `&` combines them. Which way values flow. |
+| 15 | [Discriminated unions](15-discriminated-unions.md) | A literal tag per member, so TS knows which one you hold. Why `type: "success"` is a type, and exhaustive `switch`. |
+| 16 | [Type operators](16-type-operators.md) | `keyof`, `typeof`, `T[K]`, mapped and template literal types — build a type from another type. |
+| 17 | [Conditional types](17-conditional-types.md) | `T extends U ? X : Y`, `infer`, and why conditionals distribute over unions. |
+| 18 | [Utility types](18-utility-types.md) | `Partial`, `Pick`, `Omit`, `Record`, `ReturnType` — how each is written, and where they bite. |
+| 19 | [Type guards](19-type-guards.md) | A runtime check the compiler understands. Built-ins, `x is T`, `asserts`, and where narrowing is lost. |
+| 20 | [Modeling with unions](20-modeling-with-unions.md) | The design habit: make impossible states impossible. `assertNever`, `Extract`, where it fits. |
 
 ## The thread running through all of it
 

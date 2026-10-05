@@ -94,7 +94,8 @@ function parse(value: number): number;
 function parse(value: any): any { return value }   // impl, not callable itself
 ```
 
-**Type guards** (`x is T`) — a return type that drives narrowing through our own helper:
+**Type guards** (`x is T`) — a return type that drives narrowing through our own helper (full
+note: [Type guards](19-type-guards.md)):
 
 ```ts
 function isString(x: unknown): x is string { return typeof x === "string" }

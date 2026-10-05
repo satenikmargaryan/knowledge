@@ -31,4 +31,8 @@ type Flag = true;                     // boolean literal
 > `const x = "dark"` infers the literal type `"dark"`; `let x = "dark"` widens to `string`,
 > because a `let` can be reassigned.
 
+Used as a tag on an object field, a literal type becomes a
+[discriminated union](15-discriminated-unions.md) — the compiler's way of telling object shapes
+apart.
+
 → next: [enums](04-enums.md)

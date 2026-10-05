@@ -107,3 +107,5 @@ function wrap<T>(x: T): T[] { return [x] }   // real: input type shapes the outp
 > `function make<T>(ctor: new () => T): T { return new ctor() }`
 
 See also: [Function types](07-function-types.md) · [Interfaces](08-interfaces.md)
+
+→ next: [Unions and intersections](14-unions-and-intersections.md)
