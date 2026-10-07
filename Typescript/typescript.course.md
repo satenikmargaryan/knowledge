@@ -26,6 +26,10 @@ Notes split by topic — read in order, or jump to what you need.
 | 18 | [Utility types](18-utility-types.md) | `Partial`, `Pick`, `Omit`, `Record`, `ReturnType` — how each is written, and where they bite. |
 | 19 | [Type guards](19-type-guards.md) | A runtime check the compiler understands. Built-ins, `x is T`, `asserts`, and where narrowing is lost. |
 | 20 | [Modeling with unions](20-modeling-with-unions.md) | The design habit: make impossible states impossible. `assertNever`, `Extract`, where it fits. |
+| 21 | [Decorators](21-decorators.md) | A function that wraps a class or member at definition time. The standard `(value, context)` form. |
+| 22 | [Legacy decorators](22-legacy-decorators.md) | The older `experimentalDecorators` form Angular and Nest use — and why they haven't moved. |
+| 23 | [Modules](23-modules.md) | A file with its own scope. Named vs. default, `import type`, barrels, dynamic `import()`. |
+| 24 | [Module resolution](24-module-resolution.md) | How an import finds a file: `module`, `moduleResolution`, ESM vs. CJS, `paths`, `.d.ts`. |
 
 ## The thread running through all of it
 

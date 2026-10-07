@@ -83,3 +83,5 @@ type Labels = Record<Status, string>;        // every status must get a label
 `ok` is false"*, that comment is a discriminated union asking to be written.
 
 See also: [Discriminated unions](15-discriminated-unions.md) · [Type guards](19-type-guards.md)
+
+→ next: [Decorators](21-decorators.md)
